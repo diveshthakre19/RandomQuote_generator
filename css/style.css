@@ -14,8 +14,7 @@ body{
 }
 
 .wrapper{
-    height: 200px;
-    width: 600px;
+    width: 800px;
     border: 2px dashed #ffffff;
     border-radius: 1rem;
     background-color: #0000008d;
@@ -25,11 +24,33 @@ body{
 .quote{
     font-size: 2rem;
     font-family: 'Montserrat', Courier, monospace;
-    color: yellow;
+    color: #CAD5E2;
 }
 .author{
-    text-align: right;
     font-size: 1.6rem;
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    margin: 1rem 0;
 }
+.fa-quote-right{
+    transform: translateY(1rem);
+    
+}
+
+.fa-solid {
+    color: #3DBE29;
+    font-size: 1.2rem;
+}
+
+button{
+    padding: .6rem 2rem;
+    margin: 2% 40%;
+    font-size: 1.2rem;
+    background-color:#35BDD0 ;
+    border-radius: .5rem;
+}
+
+strong{
+    margin: 0 1rem;
+    display: block;
+} 
